@@ -5,11 +5,10 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """<html>
-    <head>
+    </head>
     <body>
     <h1>Hello Rgukt</h1>
     </body>
-    </head>
     </html>"""
 
 if __name__ == "__main__":
